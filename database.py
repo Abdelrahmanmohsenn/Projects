@@ -1,4 +1,4 @@
-'''
+''
 Write a python code that manage a database for employees. Each
 employee has a unique ID and has the following data:
 Name, Job and Salary. The system shall allow:
