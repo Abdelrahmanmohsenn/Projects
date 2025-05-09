@@ -36,7 +36,7 @@ def main(page):
      
    
     keys=matches_details[0].keys()
-    with open("/home/mohamed-esam/Documents/matchdetails.csv","w") as out_file:
+    with open("/home/moh/Documents/matchdetails.csv","w") as out_file:
         dic= csv.DictWriter(out_file,keys)
         dic.writeheader()
         dic.writerows(matches_details)
